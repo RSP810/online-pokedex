@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content-wrapper">
+        <h1>ONLINE POKEDEX</h1>
+        <input type="text" id="inputpokemon" placeholder="ENTER POKÉMON NAME">
+        <button id="submitbutton" onclick="fetchdata()">ENTER</button>
+        <div id="pokemon-details" style="display: none;">
+            <div class="sprite">
+                <img id="front-sprite" src="" alt="Front Sprite">
+                <img id="back-sprite" src="" alt="Back Sprite">
+            </div>
+            <div class="info">
+                <p><strong>Name:</strong> <span id="name"></span></p>
+                <p><strong>Type:</strong> <span id="type"></span></p>
+                <p><strong>Height:</strong> <span id="height"></span></p>
+                <p><strong>Weight:</strong> <span id="weight"></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="javscript.js"></script>
+</body>
+</html>
